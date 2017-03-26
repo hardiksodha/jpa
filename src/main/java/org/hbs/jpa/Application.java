@@ -21,12 +21,16 @@ public class Application {
 
 
   ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-      /*        Long id = context.getBean(PersonDao.class).addPerson(DataUtil.getPerson());
+
+        //Hibernate Code Starts
+        /*        Long id = context.getBean(PersonDao.class).addPerson(DataUtil.getPerson());
         context.getBean(PersonDao.class).listPersons();
         context.getBean(PersonDao.class).deletePerson(id);
         System.out.println(id);
         */
+    //Hibernate Code ends
 
+        //Spring data JPA code starts
         PersonRepository personRepository = context.getBean(PersonRepository.class);
         List<Person> personList = personRepository.findByFirstName("Narendra");
         System.out.println(personList.get(0));
@@ -41,6 +45,7 @@ public class Application {
         System.out.println(personRepository.findAll(new PageRequest(0,3)));
 
         System.out.println(personRepository.countByAgeLessThan(18));
+        //Spring data JPA code ends
     }
 
 }
