@@ -1,0 +1,20 @@
+{
+  "firstName": "Saurav",
+  "lastName": "Ganguli",
+  "age": 32,
+  "city": "Kolkata",
+  "gender": "male",
+  "occupation": "Taxi Driver",
+  "contactDetailList": [
+    {
+      "mobile": "32432432",
+      "email": "sachin.ten@baba.com",
+      "landLine": "2423432"
+    },
+    {
+      "mobile": "423432423",
+      "email": "sau.gangu@baba.com",
+      "landLine": "423423"
+    }
+  ]
+}
