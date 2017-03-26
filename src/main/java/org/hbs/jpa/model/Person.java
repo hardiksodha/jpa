@@ -2,12 +2,15 @@ package org.hbs.jpa.model;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
+@Table(name = "person")
 public class Person {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="person_id")
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
 
     private String firstName;
@@ -17,8 +20,10 @@ public class Person {
     private String gender;
     private String occupation;
 
+
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    List<ContactDetail> contactDetailList;
+    @JoinColumn(name = "person_id", nullable=false)
+    Set<ContactDetail> contactDetailList;
 
     public String getFirstName() {
         return firstName;
@@ -76,11 +81,12 @@ public class Person {
         this.occupation = occupation;
     }
 
-    public List<ContactDetail> getContactDetailList() {
+
+    public Set<ContactDetail> getContactDetailList() {
         return contactDetailList;
     }
 
-    public void setContactDetailList(List<ContactDetail> contactDetailList) {
+    public void setContactDetailList(Set<ContactDetail> contactDetailList) {
         this.contactDetailList = contactDetailList;
     }
 }

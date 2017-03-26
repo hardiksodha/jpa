@@ -1,0 +1,21 @@
+{
+  "person_id":1,
+  "firstName": "Narendra",
+  "lastName": "Modi",
+  "age": 62,
+  "city": "Gandhinagar",
+  "gender": "male",
+  "occupation": "Prime Minister",
+  "contactDetailList": [
+    {
+      "mobile": "49234932",
+      "email": "ndm@gmail.com",
+      "landLine": "43242"
+    },
+    {
+      "mobile": "24324823",
+      "email": "narendra.modi@gmail.com"
+
+    }
+  ]
+}

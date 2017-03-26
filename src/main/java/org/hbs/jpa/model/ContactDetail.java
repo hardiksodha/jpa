@@ -7,10 +7,12 @@ import javax.persistence.*;
  */
 
 @Entity
+@Table(name = "contact_detail")
 public class ContactDetail {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="contact_id")
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
 
     private String mobile;
@@ -50,4 +52,6 @@ public class ContactDetail {
     public void setLandLine(String landLine) {
         this.landLine = landLine;
     }
+
+
 }

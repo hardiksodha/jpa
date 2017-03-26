@@ -24,7 +24,7 @@ public class DataUtil {
         contactDetail.setLandLine("043-432423");
 
 
-        person1.setContactDetailList(Arrays.asList(contactDetail));
+//        person1.setContactDetailList(Arrays.as(contactDetail));
         return person1;
     }
 }
