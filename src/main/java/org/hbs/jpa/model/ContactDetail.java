@@ -53,5 +53,13 @@ public class ContactDetail {
         this.landLine = landLine;
     }
 
-
+    @Override
+    public String toString() {
+        return "ContactDetail{" +
+                "id=" + id +
+                ", mobile='" + mobile + '\'' +
+                ", email='" + email + '\'' +
+                ", landLine='" + landLine + '\'' +
+                '}';
+    }
 }

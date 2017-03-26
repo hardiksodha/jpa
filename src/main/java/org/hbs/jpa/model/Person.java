@@ -89,4 +89,18 @@ public class Person {
     public void setContactDetailList(Set<ContactDetail> contactDetailList) {
         this.contactDetailList = contactDetailList;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", city='" + city + '\'' +
+                ", gender='" + gender + '\'' +
+                ", occupation='" + occupation + '\'' +
+                ", contactDetailList=" + contactDetailList +
+                '}';
+    }
 }
