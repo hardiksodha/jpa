@@ -2,9 +2,9 @@
 
 Steps to run person JPA application in intellij idea.
 
-1)Create a new project from existing source
+1)Create a new project from existing source (File -> New -> Project from existing sources)
 2)Path to pom.xml file in next step.
-3)After project is successfully loaded into intellij idea, Run application from Application.java
+3)After project is successfully loaded into intellij idea, Run application from Application.java (Right click, run as Java application)
 
 4) For GET request  GET Localhost:8080/person
 For POST request  POST Localhost:8080/person  (Content-type needs to be set to application/json)
