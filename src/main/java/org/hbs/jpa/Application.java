@@ -20,7 +20,7 @@ public class Application {
     public static void main(String[] args) {
 
 
-  ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 
         //Hibernate Code Starts
         /*        Long id = context.getBean(PersonDao.class).addPerson(DataUtil.getPerson());
@@ -28,10 +28,10 @@ public class Application {
         context.getBean(PersonDao.class).deletePerson(id);
         System.out.println(id);
         */
-    //Hibernate Code ends
+        //Hibernate Code ends
 
         //Spring data JPA code starts
-        PersonRepository personRepository = context.getBean(PersonRepository.class);
+        /*PersonRepository personRepository = context.getBean(PersonRepository.class);
         List<Person> personList = personRepository.findByFirstName("Narendra");
         System.out.println(personList.get(0));
 
@@ -44,7 +44,7 @@ public class Application {
 
         System.out.println(personRepository.findAll(new PageRequest(0,3)));
 
-        System.out.println(personRepository.countByAgeLessThan(18));
+        System.out.println(personRepository.countByAgeLessThan(18));*/
         //Spring data JPA code ends
     }
 

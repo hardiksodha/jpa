@@ -1,93 +1,21 @@
-[
+
   {
-    "person_id": 1,
-    "firstName": "Narendra",
-    "lastName": "Modi",
-    "age": 62,
-    "city": "Gandhinagar",
+
+    "firstName": "Raj",
+    "lastName": "Malhotra",
+    "age": 32,
+    "city": "Ludhiyana",
     "gender": "male",
-    "occupation": "Prime Minister",
+    "occupation": "Teacher",
     "contactDetailList": [
       {
-        "mobile": "49234932",
-        "email": "ndm@gmail.com",
+        "mobile": "3131313",
+        "email": "rm@gmail.com",
         "landLine": "43242"
       },
       {
         "mobile": "24324823",
-        "email": "narendra.modi@gmail.com"
-      }
-    ]
-  },
-  {
-    "firstName": "Sachin",
-    "lastName": "Tendulakar",
-    "age": 32,
-    "city": "Mumbai",
-    "gender": "male",
-    "occupation": "Cricketer",
-    "contactDetailList": [
-      {
-        "mobile": "34324234",
-        "email": "st@gmail.com",
-        "landLine": "32423"
-      }
-    ]
-  },
-  {
-    "firstName": "Amit",
-    "lastName": "Shah",
-    "age": 55,
-    "city": "Ahmedabad",
-    "gender": "male",
-    "occupation": "Politician",
-    "contactDetailList": [
-      {
-        "mobile": "423432423",
-        "email": "amit.shah@gmail.com"
-      }
-    ]
-  },
-  {
-    "firstName": "Hardik",
-    "lastName": "Desai",
-    "age": 31,
-    "city": "Valsad",
-    "gender": "male",
-    "occupation": "Techie (Lead)",
-    "contactDetailList": [
-      {
-        "mobile": "4324324",
-        "email": "hardik.desai@gmail.com"
-      }
-    ]
-  },
-  {
-    "firstName": "Alia",
-    "lastName": "Bhat",
-    "age": 25,
-    "city": "Mumbai",
-    "gender": "femaile",
-    "occupation": "Acteress",
-    "contactDetailList": [
-      {
-        "mobile": "165456132132",
-        "email": "alia.bhatt@gmail.com"
-      }
-    ]
-  },
-  {
-    "firstName": "Sania",
-    "lastName": "Mirza",
-    "age": 16,
-    "city": "Hyderabad",
-    "gender": "femaile",
-    "occupation": "Player",
-    "contactDetailList": [
-      {
-        "mobile": "423432",
-        "email": "sania.mirza@gmail.com"
+        "email": "rm2@gmail.com"
       }
     ]
   }
-]
