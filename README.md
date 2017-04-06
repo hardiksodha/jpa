@@ -18,7 +18,12 @@ Steps to run application in intellij idea.
 
     Can go to browser and type http://localhost:8080/console
 
-    As database url provide jdbc:h2:~/jpa, as user name provide sa, password is <BLANK>
+    Database url -> jdbc:h2:~/jpa
+    
+    User name -> sa
+     
+    Password is 'blank'
+    
 
 
 please go through jpa_faq.docx file for set up screenshots, available in same folder.
